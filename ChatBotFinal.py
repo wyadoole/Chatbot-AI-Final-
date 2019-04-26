@@ -1,6 +1,7 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from random import randint # libaries for creating and training chatbots
+# also requires you to import ntkl from the terminal to run if not pycharm will complain then it is out of range or their is no data to train with
 chatbot_bob = ChatBot("Bob") # creates a chatbot named bob
 chatbot_fred = ChatBot("Fred")# creates a chatbot named fred
 chatbot_sue = ChatBot("Sue")# creates a chatbot named sue
@@ -9,7 +10,7 @@ chatbot_matt = ChatBot("Matt")# creates a chatbot named matt
 
 ################################################################################
 #########################   training of Chatbot    #############################
-###   trains  the Chat bot to uses to make a conversation with the user      ###
+###   trains  the Chat bot to uses to make a conversation with the user      ###å
 ################################################################################
 
 # test converstation trainer and general convertaton
